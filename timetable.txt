@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable</title>
+    <style>
+        table {
+            background-color: #e3d18a;
+        }
+
+        th {
+            text-align: center;
+            color: #85603f;
+            font-weight: bold;
+        }
+
+        td {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #9e7540;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #85603f;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        .fontStyle {
+            color: #85603f;
+            font-weight: 550;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Time Table</h1>
+    <table cellspacing="5" cellpadding="6" border="5px">
+        <thead>
+            <th>Days/Periods</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th></th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="fontStyle">Mon</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>hindi</td>
+                <td rowspan="6" class="fontStyle">B<br>R<br>E<br>A<br>K</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td class="fontStyle">Tue</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>hindi</td>
+
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td class="fontStyle">Wed</td>
+                <td>Science</td>
+                <td>English</td>
+                <td rowspan="3">hindi</td>
+
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td class="fontStyle">Thu</td>
+                <td>Science</td>
+                <td>English</td>
+
+
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td class="fontStyle">Fri</td>
+                <td>Science</td>
+                <td>English</td>
+
+
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td class="fontStyle">Sat</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>hindi</td>
+
+                <td colspan="3">Maths</td>
+
+            </tr>
+            <tr>
+                <td colspan="8" class="fontStyle">This is Class VIII</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
